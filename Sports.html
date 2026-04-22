@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports News — Live Scores, Reports & Updates | Xpress News</title>
+    <meta name="description" content="Get the latest sports news, live scores, match reports, and analysis from Xpress News. Coverage includes football, athletics, basketball, and more." />
+    <meta name="keywords" content="sports news, football scores, match reports, athletics, basketball updates, sports analysis, Xpress News sports" />
+    <meta name="author" content="Xpress News" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xpressnews.com/Sports.html" />
+    <meta property="og:title" content="Sports News — Live Scores & Reports | Xpress News" />
+    <meta property="og:description" content="Get the latest sports news, live scores, match reports, and analysis from Xpress News." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=80" />
+
+    <link rel="stylesheet" href="assest/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Xpress<span>News</span></a>
+      <nav class="nav desktop-nav">
+        <a href="index.html">Home</a><a href="Topnews.html">Top</a
+        ><a href="Sports.html" class="active">Sports</a
+        ><a href="Bussiness.html">Business</a
+        ><a href="Education.html">Education</a
+        ><a href="Technology.html">Technology</a
+        ><a href="Health.html">Health</a>
+      </nav>
+      <div class="actions">
+        <button id="searchBtn">🔍</button
+        ><button onclick="toggleTranslate()">🌐</button
+        ><button id="menuBtn" class="hamburger">☰</button>
+      </div>
+      <div id="google_translate_element"></div>
+    </header>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html">Home</a><a href="Topnews.html">Top News</a
+      ><a href="Sports.html">Sports</a><a href="Bussiness.html">Business</a
+      ><a href="Education.html">Education</a
+      ><a href="Technology.html">Technology</a><a href="Health.html">Health</a>
+    </div>
+    <div id="searchBar" class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search sports news..." />
+    </div>
+    <div class="page-hero">
+      <h1>Sports</h1>
+      <p>Live scores, match reports and the biggest stories in sport</p>
+    </div>
+    <main class="news-grid">
+      <div class="news-card" data-article-id="champions-league">
+        <img
+          src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=80"
+          class="news-image"
+          alt="Football"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Sports</div>
+          <h3>Champions League Semi-Finals Promise Classic European Clashes</h3>
+          <p>
+            Europe's elite clubs gear up for high-stakes semi-final matchups
+            widely described as the most anticipated in years.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="olympics-2028">
+        <img
+          src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80"
+          class="news-image"
+          alt="Olympics"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Sports</div>
+          <h3>
+            Olympic Committee Announces 2028 Los Angeles Programme Changes
+          </h3>
+          <p>
+            New sports including cricket and flag football added as the IOC
+            targets younger global audiences.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="afcon-qualifiers">
+        <img
+          src="https://images.unsplash.com/photo-1504016798967-57a5b6a0cd77?w=600&q=80"
+          class="news-image"
+          alt="AFCON"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Sports</div>
+          <h3>Africa Cup of Nations Qualifiers Heat Up Across the Continent</h3>
+          <p>
+            Ghana and Nigeria among the heavyweights under pressure as
+            qualification reaches a decisive stage.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="world-record-sprint">
+        <img
+          src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&q=80"
+          class="news-image"
+          alt="Athletics"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Sports</div>
+          <h3>Athletics: Stunning World Record Broken in 100m Sprint Final</h3>
+          <p>
+            A new world record in the 100 metres sends shockwaves through the
+            global athletics community.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="nba-playoffs">
+        <img
+          src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&q=80"
+          class="news-image"
+          alt="NBA"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Sports</div>
+          <h3>
+            NBA Playoffs: Bracket Takes Shape After Round of Stunning Upsets
+          </h3>
+          <p>
+            Three of four top seeds eliminated in the West as the defending
+            champions exit in dramatic fashion.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="rugby-world-cup">
+        <img
+          src="https://images.unsplash.com/photo-1556056504-5c7696c4c28d?w=600&q=80"
+          class="news-image"
+          alt="Rugby"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Sports</div>
+          <h3>Rugby World Cup 2027 Host Confirmed After Lengthy Bid Process</h3>
+          <p>
+            World Rugby confirms the next host nation, with preparations already
+            underway for what promises to be the biggest tournament yet.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="About.html">Our Story</a></li>
+            <li><a href="About.html#mission">Mission</a></li>
+            <li><a href="About.html#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:readers@Xpressnews.com"
+                >readers@Xpressnews.com
+              </a>
+            </li>
+            <li>
+              Mobile number:
+              <a href="tel:600599901"> 600 599901</a>
+            </li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Stay Connected</h3>
+          <p>Get daily news updates straight to your inbox.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" /><button>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Xpress News. All rights reserved.</div>
+    </footer>
+    <script defer src="assest/JS/index.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>

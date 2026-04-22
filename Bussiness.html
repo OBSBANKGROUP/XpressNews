@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business News — Markets, Finance & Trends | Xpress News</title>
+    <meta name="description" content="Stay updated with the latest business news, market trends, financial analysis, and corporate updates on Xpress News." />
+    <meta name="keywords" content="business news, market trends, finance news, corporate updates, economic analysis, Xpress News business" />
+    <meta name="author" content="Xpress News" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xpressnews.com/Bussiness.html" />
+    <meta property="og:title" content="Business News — Markets & Finance | Xpress News" />
+    <meta property="og:description" content="Stay updated with the latest business news, market trends, and financial analysis on Xpress News." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80" />
+
+    <link rel="stylesheet" href="assest/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Xpress<span>News</span></a>
+      <nav class="nav desktop-nav">
+        <a href="index.html">Home</a><a href="Topnews.html">Top</a
+        ><a href="Sports.html">Sports</a
+        ><a href="Bussiness.html" class="active">Business</a
+        ><a href="Education.html">Education</a
+        ><a href="Technology.html">Technology</a
+        ><a href="Health.html">Health</a>
+      </nav>
+      <div class="actions">
+        <button id="searchBtn">🔍</button
+        ><button onclick="toggleTranslate()">🌐</button
+        ><button id="menuBtn" class="hamburger">☰</button>
+      </div>
+      <div id="google_translate_element"></div>
+    </header>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html">Home</a><a href="Topnews.html">Top News</a
+      ><a href="Sports.html">Sports</a><a href="Bussiness.html">Business</a
+      ><a href="Education.html">Education</a
+      ><a href="Technology.html">Technology</a><a href="Health.html">Health</a>
+    </div>
+    <div id="searchBar" class="search-bar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search business news..."
+      />
+    </div>
+    <div class="page-hero">
+      <h1>Business</h1>
+      <p>
+        Latest updates from the world of finance, markets and global business
+      </p>
+    </div>
+    <main class="news-grid">
+      <!-- GANIM TRIBUTE — pinned top of Business section -->
+      <div
+        class="news-card featured-card"
+        style="border: 2px solid #c97b3d; grid-column: 1 / -1"
+      >
+        <div
+          style="
+            background: linear-gradient(135deg, #1a0f08, #3b2a1a);
+            width: 52%;
+            min-height: 280px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            position: relative;
+          "
+        >
+          <div style="text-align: center; padding: 24px">
+            <div style="font-size: 42px; margin-bottom: 10px">🕯️</div>
+            <div
+              style="
+                font-size: 12px;
+                color: rgba(245, 230, 211, 0.5);
+                letter-spacing: 0.08em;
+              "
+            >
+              <img src="assest/images/tribute.jpeg" />
+            </div>
+          </div>
+          <div
+            style="
+              position: absolute;
+              top: 12px;
+              left: 12px;
+              background: #c97b3d;
+              color: white;
+              font-size: 11px;
+              font-weight: 700;
+              padding: 3px 10px;
+              border-radius: 4px;
+              text-transform: uppercase;
+              letter-spacing: 0.08em;
+            "
+          >
+            In Memoriam
+          </div>
+        </div>
+        <div class="news-card-body" style="justify-content: center">
+          <span class="featured-badge">Pinned</span>
+          <div class="news-category">Business</div>
+          <h3 style="font-size: 20px">
+            Ganim: The Business Couple Who Built an Empire and Touched a Nation
+          </h3>
+          <p>
+            Mr. and Mrs. Ganim have passed away in a tragic accident. We
+            remember a couple whose legacy stretches far beyond business.
+          </p>
+          <a href="ganim-tribute.html" class="read-more">Read Full Tribute</a>
+        </div>
+      </div>
+
+      <div class="news-card" data-article-id="markets-surge">
+        <img
+          src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80"
+          class="news-image"
+          alt="Markets"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Business</div>
+          <h3>Global Markets Surge as Inflation Data Eases Fears</h3>
+          <p>
+            Stock markets worldwide climbed after new inflation figures came in
+            lower than expected, boosting investor confidence.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="oil-prices">
+        <img
+          src="https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&q=80"
+          class="news-image"
+          alt="Oil"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Business</div>
+          <h3>Oil Prices Surge as Supply Disruptions Continue Worldwide</h3>
+          <p>
+            Ongoing global tensions are pushing oil prices above $110 per barrel
+            for the first time in over a year.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="ai-boom-investment">
+        <img
+          src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80"
+          class="news-image"
+          alt="AI"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Business</div>
+          <h3>AI Boom Drives Massive Investment in Tech Industry</h3>
+          <p>
+            Companies are investing unprecedented resources into AI
+            infrastructure, with global investment exceeding $500 billion in Q1
+            alone.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="global-debt">
+        <img
+          src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=600&q=80"
+          class="news-image"
+          alt="Debt"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Business</div>
+          <h3>Global Debt Expected to Hit Record Levels in 2026</h3>
+          <p>
+            Total global debt is on course to exceed $330 trillion this year,
+            raising alarm among economists.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="companies-restructure">
+        <img
+          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+          class="news-image"
+          alt="Restructure"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Business</div>
+          <h3>
+            Major Companies Restructure to Stay Competitive in Shifting Market
+          </h3>
+          <p>
+            A wave of corporate restructuring is sweeping global business as
+            companies adapt to changing conditions.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="private-equity">
+        <img
+          src="https://images.unsplash.com/photo-1559526324-593bc073d938?w=600&q=80"
+          class="news-image"
+          alt="Investment"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Business</div>
+          <h3>Private Equity Investments Reach Record Highs Globally</h3>
+          <p>
+            Private equity firms deployed a record amount of capital in Q1, with
+            technology, healthcare and infrastructure leading dealmaking.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="space-business">
+        <img
+          src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=600&q=80"
+          class="news-image"
+          alt="Space"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Business</div>
+          <h3>Space Industry Emerging as the Next Great Business Frontier</h3>
+          <p>
+            Private companies are investing billions into the rapidly growing
+            space economy, from satellites to tourism.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="cybersecurity-biz">
+        <img
+          src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80"
+          class="news-image"
+          alt="Cybersecurity"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Business</div>
+          <h3>Businesses Face Rising Cybersecurity Threats in 2026</h3>
+          <p>
+            Companies are dramatically increasing security spending as the
+            frequency and sophistication of attacks hits record levels.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="About.html">Our Story</a></li>
+            <li><a href="About.html#mission">Mission</a></li>
+            <li><a href="About.html#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Stay Connected</h3>
+          <p>Get daily news updates straight to your inbox.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" /><button>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Xpress News. All rights reserved.</div>
+    </footer>
+    <script defer src="assest/JS/index.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health News — Wellness, Medicine & Updates | Xpress News</title>
+    <meta name="description" content="Get the latest health news, medical breakthroughs, wellness tips, and public health updates from Xpress News." />
+    <meta name="keywords" content="health news, medical breakthroughs, wellness tips, public health, Xpress News health" />
+    <meta name="author" content="Xpress News" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xpressnews.com/Health.html" />
+    <meta property="og:title" content="Health News — Wellness & Medicine | Xpress News" />
+    <meta property="og:description" content="Get the latest health news and medical breakthroughs from Xpress News." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=80" />
+
+    <link rel="stylesheet" href="assest/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Xpress<span>News</span></a>
+      <nav class="nav desktop-nav">
+        <a href="index.html">Home</a><a href="Topnews.html">Top</a
+        ><a href="Sports.html">Sports</a><a href="Bussiness.html">Business</a
+        ><a href="Education.html">Education</a
+        ><a href="Technology.html">Technology</a
+        ><a href="Health.html" class="active">Health</a>
+      </nav>
+      <div class="actions">
+        <button id="searchBtn">🔍</button
+        ><button onclick="toggleTranslate()">🌐</button
+        ><button id="menuBtn" class="hamburger">☰</button>
+      </div>
+      <div id="google_translate_element"></div>
+    </header>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html">Home</a><a href="Topnews.html">Top News</a
+      ><a href="Sports.html">Sports</a><a href="Bussiness.html">Business</a
+      ><a href="Education.html">Education</a
+      ><a href="Technology.html">Technology</a><a href="Health.html">Health</a>
+    </div>
+    <div id="searchBar" class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search health news..." />
+    </div>
+    <div class="page-hero">
+      <h1>Health</h1>
+      <p>Health, wellness, medicine and global public health news</p>
+    </div>
+    <main class="news-grid">
+      <div class="news-card" data-article-id="who-mental-health">
+        <img
+          src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=80"
+          class="news-image"
+          alt="Mental health"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Health</div>
+          <h3>WHO Issues New Guidelines on Managing Mental Health at Work</h3>
+          <p>
+            The World Health Organization calls on employers to take far more
+            active responsibility for worker mental well-being.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="malaria-vaccine">
+        <img
+          src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80"
+          class="news-image"
+          alt="Vaccine"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Health</div>
+          <h3>Malaria Vaccine Rollout Expands to Ten More African Countries</h3>
+          <p>
+            Building on a successful pilot, the life-saving vaccine reaches
+            millions more vulnerable people across the continent.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="alzheimers-treatment">
+        <img
+          src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=600&q=80"
+          class="news-image"
+          alt="Research"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Health</div>
+          <h3>
+            Scientists Identify Promising New Target for Alzheimer's Treatment
+          </h3>
+          <p>
+            A newly discovered protein pathway could open the door to more
+            effective drugs for the degenerative condition.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="obesity-crisis">
+        <img
+          src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&q=80"
+          class="news-image"
+          alt="Obesity"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Health</div>
+          <h3>
+            Rising Obesity Rates Prompt Global Public Health Emergency Call
+          </h3>
+          <p>
+            Over one billion people worldwide now live with obesity as health
+            ministers demand urgent coordinated action.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="processed-foods">
+        <img
+          src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&q=80"
+          class="news-image"
+          alt="Food"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Health</div>
+          <h3>
+            Ultra-Processed Foods Firmly Linked to Higher Risk of Heart Disease
+          </h3>
+          <p>
+            A landmark study of 200,000 people confirms strong causal links
+            between processed food and cardiovascular risk.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="health-wearables">
+        <img
+          src="https://images.unsplash.com/photo-1510017803434-a899398421b3?w=600&q=80"
+          class="news-image"
+          alt="Wearables"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Health</div>
+          <h3>Tech Wearables Now Detecting Early Signs of Chronic Illness</h3>
+          <p>
+            Next-generation smartwatches flag early warning signs of diabetes
+            and hypertension before symptoms appear.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="About.html">Our Story</a></li>
+            <li><a href="About.html#mission">Mission</a></li>
+            <li><a href="About.html#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:readers@Xpressnews.com"
+                >readers@Xpressnews.com
+              </a>
+            </li>
+            <li>
+              Mobile number:
+              <a href="tel:600599901"> 600 599901</a>
+            </li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Stay Connected</h3>
+          <p>Get daily news updates straight to your inbox.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" /><button>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Xpress News. All rights reserved.</div>
+    </footer>
+    <script defer src="assest/JS/index.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>

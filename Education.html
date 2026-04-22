@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education News — Learning, Policy & Growth | Xpress News</title>
+    <meta name="description" content="Discover the latest in education news, policy updates, learning resources, and technological advancements in the academic world on Xpress News." />
+    <meta name="keywords" content="education news, learning resources, academic updates, education policy, Xpress News education" />
+    <meta name="author" content="Xpress News" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xpressnews.com/Education.html" />
+    <meta property="og:title" content="Education News — Learning & Growth | Xpress News" />
+    <meta property="og:description" content="Discover the latest in education news and technological advancements on Xpress News." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80" />
+
+    <link rel="stylesheet" href="assest/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Xpress<span>News</span></a>
+      <nav class="nav desktop-nav">
+        <a href="index.html">Home</a><a href="Topnews.html">Top</a
+        ><a href="Sports.html">Sports</a><a href="Bussiness.html">Business</a
+        ><a href="Education.html" class="active">Education</a
+        ><a href="Technology.html">Technology</a
+        ><a href="Health.html">Health</a>
+      </nav>
+      <div class="actions">
+        <button id="searchBtn">🔍</button
+        ><button onclick="toggleTranslate()">🌐</button
+        ><button id="menuBtn" class="hamburger">☰</button>
+      </div>
+      <div id="google_translate_element"></div>
+    </header>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html">Home</a><a href="Topnews.html">Top News</a
+      ><a href="Sports.html">Sports</a><a href="Bussiness.html">Business</a
+      ><a href="Education.html">Education</a
+      ><a href="Technology.html">Technology</a><a href="Health.html">Health</a>
+    </div>
+    <div id="searchBar" class="search-bar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search education news..."
+      />
+    </div>
+    <div class="page-hero">
+      <h1>Education</h1>
+      <p>News from schools, universities and the world of learning</p>
+    </div>
+    <main class="news-grid">
+      <div class="news-card" data-article-id="universities-ai">
+        <img
+          src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80"
+          class="news-image"
+          alt="University"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Education</div>
+          <h3>Universities Embrace AI Tools as Student Demand Grows Rapidly</h3>
+          <p>
+            Higher education institutions accelerate adoption of AI-powered
+            learning platforms driven by strong student demand.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="global-literacy">
+        <img
+          src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80"
+          class="news-image"
+          alt="Literacy"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Education</div>
+          <h3>Global Literacy Rates Rise for First Time in Over a Decade</h3>
+          <p>
+            UNESCO data shows significant improvements in reading and writing
+            skills across developing regions worldwide.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="ghana-coding">
+        <img
+          src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&q=80"
+          class="news-image"
+          alt="Coding"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Education</div>
+          <h3>
+            Ghana Launches Free Coding Curriculum for All Secondary Schools
+          </h3>
+          <p>
+            A landmark initiative aims to equip over 500,000 students annually
+            with practical digital skills.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="hybrid-learning">
+        <img
+          src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&q=80"
+          class="news-image"
+          alt="Hybrid"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Education</div>
+          <h3>Study Finds Students Learn Faster with Hybrid Learning Models</h3>
+          <p>
+            Research involving 80,000 students confirms hybrid approaches
+            consistently produce better academic outcomes.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="international-students">
+        <img
+          src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80"
+          class="news-image"
+          alt="Students"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Education</div>
+          <h3>
+            International Student Enrolment Hits New Records Worldwide in 2026
+          </h3>
+          <p>
+            Total international enrolment surpasses 8 million for the first
+            time, led by African and Asian students.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="teachers-union">
+        <img
+          src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80"
+          class="news-image"
+          alt="Teachers"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Education</div>
+          <h3>
+            Teachers' Unions Call for Better Pay and Improved Classroom
+            Conditions
+          </h3>
+          <p>
+            A coordinated global campaign warns the teaching profession is in
+            crisis and students will suffer the consequences.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="About.html">Our Story</a></li>
+            <li><a href="About.html#mission">Mission</a></li>
+            <li><a href="About.html#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:readers@Xpressnews.com"
+                >readers@Xpressnews.com
+              </a>
+            </li>
+            <li>
+              Mobile number:
+              <a href="tel:600599901"> 600 599901</a>
+            </li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Stay Connected</h3>
+          <p>Get daily news updates straight to your inbox.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" /><button>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Xpress News. All rights reserved.</div>
+    </footer>
+    <script defer src="assest/JS/index.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xpress News — Article</title>
+    <meta name="description" content="Read the latest in-depth articles and news stories on Xpress News." />
+    <meta name="keywords" content="news article, in-depth reporting, Xpress News story" />
+    <meta name="author" content="Xpress News" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://xpressnews.com/Article.html" />
+    <meta property="og:title" content="Xpress News — Article" />
+    <meta property="og:description" content="Read the latest in-depth articles and news stories on Xpress News." />
+    <meta property="og:image" content="https://xpressnews.com/assest/images/tribute.jpeg" />
+
+    <link rel="stylesheet" href="assest/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Xpress<span>News</span></a>
+      <nav class="nav desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="Topnews.html">Top</a>
+        <a href="Sports.html">Sports</a>
+        <a href="Bussiness.html">Business</a>
+        <a href="Education.html">Education</a>
+        <a href="Technology.html">Technology</a>
+        <a href="Health.html">Health</a>
+      </nav>
+      <div class="actions">
+        <button id="searchBtn">🔍</button>
+        <button onclick="toggleTranslate()">🌐</button>
+        <button id="menuBtn" class="hamburger">☰</button>
+      </div>
+      <div id="google_translate_element"></div>
+    </header>
+
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="Topnews.html">Top News</a>
+      <a href="Sports.html">Sports</a>
+      <a href="Bussiness.html">Business</a>
+      <a href="Education.html">Education</a>
+      <a href="Technology.html">Technology</a>
+      <a href="Health.html">Health</a>
+    </div>
+
+    <div id="searchBar" class="search-bar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search news articles..."
+      />
+    </div>
+
+    <main class="article-container">
+      <div class="article-inner">
+        <img id="articleImage" src="" alt="" class="article-image" />
+        <div class="article-body">
+          <span id="articleCategory" class="article-category"></span>
+          <h1 id="articleTitle" class="article-title"></h1>
+          <p id="articleMeta" class="article-meta"></p>
+          <div id="articleContent" class="article-content"></div>
+          <a
+            id="backBtn"
+            href="#"
+            class="read-more"
+            style="margin-top: 24px; display: inline-block"
+            >← Back</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <section class="related-section" id="relatedSection">
+      <h2>Related Stories</h2>
+      <div
+        class="related-grid news-grid"
+        id="relatedGrid"
+        style="padding: 0; margin: 0; max-width: none"
+      ></div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:readers@Xpressnews.com"
+                >readers@Xpressnews.com
+              </a>
+            </li>
+            <li>
+              Mobile number:
+              <a href="tel:600599901"> 600 599901</a>
+            </li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Stay Connected</h3>
+          <p>Get daily news updates straight to your inbox.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" /><button>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Xpress News. All rights reserved.</div>
+    </footer>
+
+    <script defer src="assest/JS/index.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>

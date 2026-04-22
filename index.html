@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xpress News — Breaking News, Latest Updates, Global & Local Coverage</title>
+    <meta name="description" content="Xpress News delivers the latest breaking news, top stories, and in-depth coverage of global events, business, technology, sports, and more. Stay informed with fast and accurate reporting." />
+    <meta name="keywords" content="Xpress News, breaking news, latest updates, global news, local news, business news, technology news, sports news, health news, education news, news today" />
+    <meta name="author" content="Xpress News" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xpressnews.com/" />
+    <meta property="og:title" content="Xpress News — Breaking News, Latest Updates" />
+    <meta property="og:description" content="Stay informed with Xpress News. Your trusted source for global breaking news, business, and technology updates." />
+    <meta property="og:image" content="https://xpressnews.com/assest/images/tribute.jpeg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://xpressnews.com/" />
+    <meta property="twitter:title" content="Xpress News — Breaking News, Latest Updates" />
+    <meta property="twitter:description" content="Stay informed with Xpress News. Your trusted source for global breaking news, business, and technology updates." />
+    <meta property="twitter:image" content="https://xpressnews.com/assest/images/tribute.jpeg" />
+
+    <link rel="stylesheet" href="assest/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Xpress<span>News</span></a>
+      <nav class="nav desktop-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="Topnews.html">Top</a>
+        <a href="Sports.html">Sports</a>
+        <a href="Bussiness.html">Business</a>
+        <a href="Education.html">Education</a>
+        <a href="Technology.html">Technology</a>
+        <a href="Health.html">Health</a>
+      </nav>
+      <div class="actions">
+        <button id="searchBtn">🔍</button>
+        <button onclick="toggleTranslate()">🌐</button>
+        <button id="menuBtn" class="hamburger">☰</button>
+      </div>
+      <div id="google_translate_element"></div>
+    </header>
+
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html">Home</a><a href="Topnews.html">Top News</a
+      ><a href="Sports.html">Sports</a> <a href="Bussiness.html">Business</a
+      ><a href="Education.html">Education</a>
+      <a href="Technology.html">Technology</a><a href="Health.html">Health</a>
+    </div>
+
+    <div id="searchBar" class="search-bar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search news articles..."
+      />
+    </div>
+
+    <!-- BREAKING: GANIM TRIBUTE — prominent placement for SEO & visibility -->
+    <div
+      style="
+        background: #1a0f08;
+        color: var(--cream, #f5e6d3);
+        text-align: center;
+        padding: 12px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        border-bottom: 2px solid #c97b3d;
+      "
+    >
+      🕯️ &nbsp;IN MEMORIAM &nbsp;·&nbsp;
+      <a
+        href="ganim-tribute.html"
+        style="color: #c97b3d; text-decoration: underline"
+        >Read our tribute to the Ganim couple →</a
+      >
+    </div>
+    <main class="news-grid">
+      <!-- GANIM FEATURED TRIBUTE CARD -->
+      <div
+        class="news-card featured-card"
+        style="border: 2px solid #c97b3d"
+        onclick="window.location.href = 'ganim-tribute.html'"
+        onkeypress="window.location.href = 'ganim-tribute.html'"
+        style="cursor: pointer"
+      >
+        <div
+          style="
+            background: linear-gradient(135deg, #1a0f08, #3b2a1a);
+            width: 52%;
+            min-height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            position: relative;
+          "
+        >
+          <div style="text-align: center; padding: 24px">
+            <div style="font-size: 48px; margin-bottom: 12px">🕯️</div>
+            <div
+              style="
+                font-size: 13px;
+                color: rgba(245, 230, 211, 0.6);
+                letter-spacing: 0.08em;
+              "
+            >
+              <img src="assest/images/tribute.jpeg" />
+            </div>
+          </div>
+          <div
+            style="
+              position: absolute;
+              top: 14px;
+              left: 14px;
+              background: #c97b3d;
+              color: white;
+              font-size: 11px;
+              font-weight: 700;
+              padding: 4px 10px;
+              border-radius: 4px;
+              letter-spacing: 0.08em;
+              text-transform: uppercase;
+            "
+          >
+            In Memoriam
+          </div>
+        </div>
+        <div class="news-card-body" style="justify-content: center">
+          <span class="featured-badge">Breaking</span>
+          <div class="news-category">Business</div>
+          <h3 style="font-size: 22px">
+            Ganim: The Business Couple Who Built an Empire and Touched a Nation
+          </h3>
+          <p>
+            Mr. and Mrs. Ganim — beloved entrepreneurs, philanthropists and
+            partners in everything — have passed away in a tragic road accident.
+            Xpress News pays tribute to a couple who changed countless lives.
+          </p>
+          <a
+            href="ganim-tribute.html"
+            class="read-more"
+            onclick="event.stopPropagation()"
+            >Read Full Tribute</a
+          >
+        </div>
+      </div>
+
+      <div class="news-card featured-card" data-article-id="us-iran-deal">
+        <img src="assest/images/Trump.jpeg" alt="US Iran" class="news-image" />
+        <div class="news-card-body">
+          <span class="featured-badge">Featured</span>
+          <div class="news-category">Top News</div>
+          <h3>
+            How the US and Iran could reach a peace deal that both can sell as a
+            victory
+          </h3>
+          <p>
+            With talks ongoing and pressure mounting on both sides, a negotiated
+            compromise appears increasingly likely.
+          </p>
+          <a href="#" class="read-more">Read Full Story</a>
+        </div>
+      </div>
+
+      <div class="news-card" data-article-id="markets-surge">
+        <img
+          src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80"
+          alt="Markets"
+          class="news-image"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Business</div>
+          <h3>Global Markets Surge as Inflation Data Eases Fears</h3>
+          <p>
+            Stock markets worldwide climbed after new inflation figures came in
+            lower than expected.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+
+      <div class="news-card" data-article-id="champions-league">
+        <img
+          src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=80"
+          alt="Sports"
+          class="news-image"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Sports</div>
+          <h3>Champions League Semi-Finals Set to Deliver Classic Clashes</h3>
+          <p>
+            Europe's elite clubs are gearing up for high-stakes semi-final
+            matchups that promise to thrill fans.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+
+      <div class="news-card" data-article-id="ai-industries">
+        <img
+          src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80"
+          alt="AI"
+          class="news-image"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Technology</div>
+          <h3>AI Breakthroughs Are Reshaping Industries at Record Speed</h3>
+          <p>
+            From healthcare to finance, AI tools are transforming how businesses
+            operate and make decisions.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+
+      <div class="news-card" data-article-id="who-mental-health">
+        <img
+          src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=80"
+          alt="Health"
+          class="news-image"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Health</div>
+          <h3>WHO Issues New Guidelines on Managing Mental Health at Work</h3>
+          <p>
+            The World Health Organization has published updated recommendations
+            for employers.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+
+      <div class="news-card" data-article-id="ghana-coding">
+        <img
+          src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80"
+          alt="Education"
+          class="news-image"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Education</div>
+          <h3>Ghana Launches Free Coding Curriculum for Secondary Schools</h3>
+          <p>
+            A new initiative aims to equip young Ghanaians with digital skills
+            for the jobs of tomorrow.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="About.html">Our Story</a></li>
+            <li><a href="About.html#mission">Mission</a></li>
+            <li><a href="About.html#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Stay Connected</h3>
+          <p>Get daily news updates straight to your inbox.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" /><button>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Xpress News. All rights reserved.</div>
+    </footer>
+
+    <script defer src="assest/JS/index.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>

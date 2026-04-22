@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top News — Latest Breaking Stories & Headlines | Xpress News</title>
+    <meta name="description" content="Catch up on the biggest stories and top breaking news from around the world on Xpress News. Stay informed with our featured headlines." />
+    <meta name="keywords" content="top news, breaking news, latest headlines, world news, Xpress News top stories" />
+    <meta name="author" content="Xpress News" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xpressnews.com/Topnews.html" />
+    <meta property="og:title" content="Top News — Latest Breaking Stories | Xpress News" />
+    <meta property="og:description" content="Catch up on the biggest stories and top breaking news on Xpress News." />
+    <meta property="og:image" content="https://xpressnews.com/assest/images/Trump.jpeg" />
+
+    <link rel="stylesheet" href="assest/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Xpress<span>News</span></a>
+      <nav class="nav desktop-nav">
+        <a href="index.html">Home</a
+        ><a href="Topnews.html" class="active">Top</a
+        ><a href="Sports.html">Sports</a><a href="Bussiness.html">Business</a
+        ><a href="Education.html">Education</a
+        ><a href="Technology.html">Technology</a
+        ><a href="Health.html">Health</a>
+      </nav>
+      <div class="actions">
+        <button id="searchBtn">🔍</button
+        ><button onclick="toggleTranslate()">🌐</button
+        ><button id="menuBtn" class="hamburger">☰</button>
+      </div>
+      <div id="google_translate_element"></div>
+    </header>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="index.html">Home</a><a href="Topnews.html">Top News</a
+      ><a href="Sports.html">Sports</a><a href="Bussiness.html">Business</a
+      ><a href="Education.html">Education</a
+      ><a href="Technology.html">Technology</a><a href="Health.html">Health</a>
+    </div>
+    <div id="searchBar" class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search top news..." />
+    </div>
+    <div class="page-hero">
+      <h1>Top News</h1>
+      <p>The biggest stories shaping our world today</p>
+    </div>
+    <main class="news-grid">
+      <div class="news-card featured-card" data-article-id="us-iran-deal">
+        <img src="assest/images/Trump.jpeg" alt="US Iran" class="news-image" />
+        <div class="news-card-body">
+          <span class="featured-badge">Featured</span>
+          <div class="news-category">Top News</div>
+          <h3>
+            How the US and Iran could reach a peace deal that both can sell as a
+            victory
+          </h3>
+          <p>
+            With talks ongoing and pressure mounting on both sides, a negotiated
+            compromise appears increasingly likely.
+          </p>
+          <a href="#" class="read-more">Read Full Story</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="global-leaders-tensions">
+        <img
+          src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600&q=80"
+          class="news-image"
+          alt="Summit"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Top News</div>
+          <h3>Global Leaders Meet Over Rising Tensions in Emergency Summit</h3>
+          <p>
+            World leaders gathered in Geneva for an emergency summit with
+            diplomats warning of the highest conflict risk in decades.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      <div class="news-card" data-article-id="un-security-council">
+        <img
+          src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80"
+          class="news-image"
+          alt="UN"
+        />
+        <div class="news-card-body">
+          <div class="news-category">Top News</div>
+          <h3>
+            UN Security Council Calls Emergency Session on Middle East Crisis
+          </h3>
+          <p>
+            Permanent members remain deeply divided as the humanitarian
+            situation continues to deteriorate rapidly.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="About.html">Our Story</a></li>
+            <li><a href="About.html#mission">Mission</a></li>
+            <li><a href="About.html#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:readers@Xpressnews.com"
+                >readers@Xpressnews.com
+              </a>
+            </li>
+            <li>
+              Mobile number:
+              <a href="tel:600599901"> 600 599901</a>
+            </li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Stay Connected</h3>
+          <p>Get daily news updates straight to your inbox.</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email" /><button>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Xpress News. All rights reserved.</div>
+    </footer>
+    <script defer src="assest/JS/index.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>
